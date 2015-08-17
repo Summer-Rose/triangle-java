@@ -1,0 +1,20 @@
+<h1>Triangle Checker</h1>
+<p>Side One: $myTriangle.getSideOne()</p>
+<p>Side Two: $myTriangle.getSideTwo()</p>
+<p>Side Three: $myTriangle.getSideThree()</p>
+
+#if ($myTriangle.isNotATriangle())
+  <p>That's not a triangle, dummy!</p>
+
+#elseif ($myTriangle.isEquilateral())
+  <p>Your triangle is Equilateral!</p>
+
+#elseif ($myTriangle.isIsosceles())
+  <p>Your triangle is isosceles!</p>
+
+#elseif ($myTriangle.isScalene())
+  <p>Your triangle is scalene!</p>
+
+#end
+
+<a href="/">Enter a new triangle</a>
