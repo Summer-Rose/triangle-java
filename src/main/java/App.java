@@ -5,7 +5,7 @@ import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
 import java.util.Random;
 
-public class WordPuzzle {
+public class App {
     public static void main(String[] args) {}
 
 

@@ -5,7 +5,7 @@ public class ServerRule extends ExternalResource {
 
   protected void before() {
     String[] args = {};
-    WordPuzzle.main(args); //might need to change name
+    App.main(args); //might need to change name
   }
 
   protected void after() {
